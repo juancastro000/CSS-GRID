@@ -20,13 +20,14 @@ body {
   background-color: #ffffff;
   padding: 10px;
   box-sizing: border-box;
-  border: 2px solid rgb(0, 0, 0); 
 }
 
 .title {
   grid-column: span 2; 
   grid-row: 1; 
-  text-align: left;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px;
